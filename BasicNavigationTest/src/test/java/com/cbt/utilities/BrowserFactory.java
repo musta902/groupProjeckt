@@ -10,7 +10,7 @@ import org.openqa.selenium.safari.SafariDriver;
 public class BrowserFactory {
 
 
-     public static WebDriver getDriver (String browserType) {
+     public staticgetDriver ( WebDriver String browserType) {
           WebDriver driver = null;
           //Chrome,CHROME,CHROme
           switch (browserType.toLowerCase()) {
